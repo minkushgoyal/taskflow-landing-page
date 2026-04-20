@@ -67,3 +67,6 @@ The goal of this project is to demonstrate modern frontend UI skills and create 
 ## License
 
 This project is for learning and portfolio use. Add your preferred license if you plan to distribute it publicly.
+=======
+# taskflow-landing-page
+Premium task manager landing page built with HTML, CSS &amp; JS
