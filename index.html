@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow - Work smarter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="noise"></div>
+
+  <header class="site-header container reveal">
+    <a href="#" class="logo">
+      <span class="logo-mark">TF</span>
+      <span>TaskFlow</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#preview">Product</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <button class="btn btn-ghost">Sign in</button>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Premium workflow platform</p>
+        <h1>Work smarter with TaskFlow</h1>
+        <p class="hero-subtext">
+          Plan your work, track progress, and actually finish things on time. Most tools add more work. TaskFlow removes it.
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary">Get Started</a>
+          <a href="#preview" class="btn btn-secondary">View Demo</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat glass">
+            <strong data-count="124">124</strong>
+            <span>Active Teams</span>
+          </div>
+          <div class="stat glass">
+            <strong data-count="97">97</strong>
+            <span>On-time delivery %</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-dashboard reveal">
+        <div class="dashboard glass tilt-card">
+          <div class="dashboard-topbar">
+            <div class="topbar-left">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span>Sprint Board</span>
+          </div>
+
+          <div class="kanban-grid">
+            <article class="kanban-col">
+              <h3>To Do <span>3</span></h3>
+              <div class="task-card priority-high">
+                <p class="task-title">Revamp onboarding flow</p>
+                <div class="task-meta">
+                  <span>High</span>
+                  <span>Design</span>
+                </div>
+              </div>
+              <div class="task-card">
+                <p class="task-title">Write release notes</p>
+                <div class="task-meta">
+                  <span>Medium</span>
+                  <span>Docs</span>
+                </div>
+              </div>
+              <div class="task-card priority-low">
+                <p class="task-title">Clean old backlog</p>
+                <div class="task-meta">
+                  <span>Low</span>
+                  <span>Ops</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="kanban-col">
+              <h3>In Progress <span>2</span></h3>
+              <div class="task-card active">
+                <p class="task-title">API performance optimization</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--progress:72%"></div>
+                </div>
+                <div class="task-meta">
+                  <span>72% complete</span>
+                  <span>Backend</span>
+                </div>
+              </div>
+              <div class="task-card active">
+                <p class="task-title">Landing page polish</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--progress:46%"></div>
+                </div>
+                <div class="task-meta">
+                  <span>46% complete</span>
+                  <span>Frontend</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="kanban-col">
+              <h3>Done <span>4</span></h3>
+              <div class="task-card completed">
+                <p class="task-title">Team standup sync</p>
+                <div class="task-meta">
+                  <span>Completed</span>
+                  <span>Today</span>
+                </div>
+              </div>
+              <div class="task-card completed">
+                <p class="task-title">Q2 roadmap draft</p>
+                <div class="task-meta">
+                  <span>Completed</span>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+              <div class="task-card completed">
+                <p class="task-title">Client handoff package</p>
+                <div class="task-meta">
+                  <span>Completed</span>
+                  <span>Today</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features container reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Why teams choose TaskFlow</p>
+        <h2>Built for speed, clarity, and momentum</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card glass">
+          <div class="icon">📊</div>
+          <h3>Smart Task Organization</h3>
+          <p>Automatically prioritize, sort, and group work so your team always sees what matters most.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="icon">⚡</div>
+          <h3>Real-time Collaboration</h3>
+          <p>Collaborate instantly with comments, status updates, and shared workflows across your projects.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="icon">🤝</div>
+          <h3>Productivity Analytics</h3>
+          <p>Track trends with actionable insights and performance dashboards that keep goals on track.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="icon">⏱</div>
+          <h3>Deadline Tracking</h3>
+          <p>Never miss a due date with intelligent reminders, timeline views, and progress notifications.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="preview" class="preview container reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Product preview</p>
+        <h2>A command center for your daily execution</h2>
+      </div>
+      <div class="preview-shell glass tilt-card">
+        <div class="preview-sidebar">
+          <h3>Workspace</h3>
+          <ul>
+            <li class="active">Overview</li>
+            <li>Sprints</li>
+            <li>Calendar</li>
+            <li>Automation</li>
+            <li>Reports</li>
+          </ul>
+        </div>
+        <div class="preview-main">
+          <div class="preview-header">
+            <h3>Team Performance Dashboard</h3>
+            <button class="btn btn-secondary">Create Task</button>
+          </div>
+          <div class="preview-widgets">
+            <div class="widget glass">
+              <p>Completion Rate</p>
+              <strong>84%</strong>
+            </div>
+            <div class="widget glass">
+              <p>Tasks Closed</p>
+              <strong>312</strong>
+            </div>
+            <div class="widget glass">
+              <p>Team Velocity</p>
+              <strong>+18%</strong>
+            </div>
+          </div>
+          <div class="activity glass">
+            <div class="activity-row">
+              <span class="pill high">High</span>
+              <p>Payment flow QA fixes</p>
+              <small>Due in 2h</small>
+            </div>
+            <div class="activity-row">
+              <span class="pill medium">Medium</span>
+              <p>Update onboarding microcopy</p>
+              <small>Due tomorrow</small>
+            </div>
+            <div class="activity-row">
+              <span class="pill done">Done</span>
+              <p>Refactor notification service</p>
+              <small>Completed</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="cta container reveal">
+      <div class="cta-card glass">
+        <h2>Get your work under control finally</h2>
+        <p>Join modern teams shipping faster with less friction.</p>
+        <a href="#" class="btn btn-primary">Try for Free</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container reveal">
+    <a href="#" class="logo">
+      <span class="logo-mark">TF</span>
+      <span>TaskFlow</span>
+    </a>
+    <div class="footer-links">
+      <a href="#">Product</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy</a>
+    </div>
+    <p>© 2026 TaskFlow. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
